@@ -1,3 +1,13 @@
+## Connect Python workflows to DICOMweb services
+
+This is a development fork of [DICOMweb Client](https://github.com/ImagingDataCommons/dicomweb-client), a Python client for DICOMweb RESTful services. Upstream provides both a Python package and a command-line interface, making it useful when imaging-data access needs to fit into scripts, notebooks, or repeatable data-transfer workflows.
+
+**Contribution to review:** [PR #130](https://github.com/ImagingDataCommons/dicomweb-client/pull/130) proposes constraining command-line output paths derived from DICOM UIDs. The work focuses on output-file handling; the linked pull request contains the proposed implementation and review status.
+
+Begin with the [official documentation](https://dicomweb-client.readthedocs.io), which includes user examples, installation guidance, and Python and CLI API references. The original README and scientific citation follow below. The [branch comparison](https://github.com/ImagingDataCommons/dicomweb-client/compare/master...jdotc1:master) shows the default branch's relationship to upstream.
+
+---
+
 # DICOMweb Client
 
 [![Build Status](https://github.com/ImagingDataCommons/dicomweb-client/actions/workflows/run_unit_tests.yml/badge.svg)](https://github.com/ImagingDataCommons/dicomweb-client/actions)
